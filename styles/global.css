@@ -21,18 +21,43 @@
     --text-lg: bold 32px var(--font-family);
     --text-md: bold 28px var(--font-family);
     --text: 16px var(--font-family);
-    --text-bold: bold 16px var(--font-family);
-    --text-ilaic: italic 16px var(--font-family);
+}
+
+.blue-accent{
+    color: var(--blue-accent-color);
+}
+
+.orange-accent{
+    color: var(--orange-accent-color);
+}
+
+.pink-accent{
+    color: var(--pink-accent-color);
+}
+
+.purple-accent{
+    color: var(--purple-accent-color);
 }
 
 body{
     background-color: var(--background-color);
     font: var(--text);
     color: var(--text-color-secondary);
+    padding: 88px 80px 0;
+    margin-inline: auto;
+    max-width: 1280px;
+}
+h1{
+    font: var(--text-xl);
+    color: var(--text-color-primary);
 }
 
-.container{
-    padding-inline: 32px;
-    margin-inline: auto;
-    max-width: 1120px;
+h2{
+    font: var(--text-lg);
+    color: var(--text-color-primary);
+}
+
+h3{
+    font: var(--text-md);
+    color: var(--text-color-primary);
 }
