@@ -16,7 +16,7 @@
     --pink-accent-color: #E5245E;
     --purple-accent-color: #591B98;
 
-    --font-family: font-family: "Open Sans", serif;
+    --font-family: "Open Sans", serif;
     --text-xl: bold 36px var(--font-family);
     --text-lg: bold 32px var(--font-family);
     --text-md: bold 28px var(--font-family);
