@@ -1,0 +1,10 @@
+footer{
+    margin-block: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer img{
+    margin: 4px;
+}
