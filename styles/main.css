@@ -1,0 +1,55 @@
+main img{
+    width: 100%;
+    border-radius: 28px;
+    object-fit: cover;
+}
+
+main hr{
+    margin-block: 40px;
+}
+
+main h1{
+    margin-bottom: 40px;
+}
+
+main > p {
+    margin-bottom: 16px;
+}
+
+.title-list{
+    margin-bottom: 64px;
+}
+
+.title-list h2{
+    margin-bottom: 8px;
+}
+
+.subtitle{
+    margin-top: 24px;
+}
+
+.list img{
+    height: 350px;
+    margin-bottom: 20px;
+}
+
+.list h2{
+    margin-bottom: 4px;
+}
+
+section div{
+    margin-top: 16px;
+}
+
+ul{
+    margin-left: 24px;
+}
+
+li{
+    font-weight: bold;
+}
+
+li::marker{
+    color: var(--text-color-secondary);
+    font-size: 12px;
+}
